@@ -1,0 +1,12 @@
+# dataset (download it yourself, see README)
+data/
+*.zip
+# trained models and checkpoints
+models/
+*.keras
+*.h5
+# notebook / python clutter
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
