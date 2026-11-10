@@ -3,6 +3,8 @@ numpy
 pandas
 pillow
 matplotlib
+plotnine
 scikit-learn
+opencv-python
 kagglehub
 jupyter

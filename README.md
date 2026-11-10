@@ -8,7 +8,7 @@ Comparing four models for e-commerce product image classification on Kaggle’s 
 pip install -r requirements.txt
 jupyter notebook product_image_classifier.ipynb
 ```
-The notebook downloads the dataset into `data/` the first time it runs (via `kagglehub`). If that fails, download [the zip from Kaggle](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) and unzip it into `data/`.
+The notebook downloads the dataset the first time it runs with `kagglehub` (cached after that). The code follows the style of the [CPSC 393 class labs](https://github.com/rhamzaali/CPSC393-MachineLearning/tree/main/class_labs), and several helper functions are adapted from them.
 
 ## Layout
 | Path | What it is |
@@ -16,7 +16,7 @@ The notebook downloads the dataset into `data/` the first time it runs (via `kag
 | `product_image_classifier.ipynb` | The whole project, one section per part |
 | `splits/` | Train/val/test split CSVs; built once, committed, shared by every model |
 | `figures/` | Saved figures for slides and the report |
-| `data/` | The dataset (git-ignored) |
+| `models/` | Saved trained models (git-ignored) |
 
 ## Working together
 - Each person works on their own branch and opens a pull request into `main`.
